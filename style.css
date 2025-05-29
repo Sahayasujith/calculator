@@ -51,9 +51,13 @@ body {
   }
   
   /* responsive */
-  @media screen and (max-width:300px) {
-    .container{
-      height: 600px;
-      width: 250px;
-    }
+@media only screen and(max-width: 600px) {
+  body {
+    font-size: 16px;
   }
+  .container {
+    padding: 20px;
+    height: auto;
+    width: auto;
+  }
+}
